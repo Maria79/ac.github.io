@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+.container-fluid p {
+    text-align: justify;
+}
+
+.item1 {    
+    background: url('../img/DSC04785-Recovered.jpg')15% 20%/cover no-repeat; 
+}
+.item2{
+    background: url('../img/GOPR1803.jpg') 15% 35%/cover no-repeat;
+}
+.item3{
+    background: url('../img/bea\ pecio\ 2.jpg')center top/cover no-repeat;
+}
+.item4{
+    background: url('../img/GOPR2466.jpg')10% 15%/cover no-repeat;
+}
+.item5{
+    background: url('../img/daniel\ acl\ sin\ logo.jpg')50% 35%/cover no-repeat;
+}
+
+
+@media screen and (max-width:425px) {
+    .item1 {    
+    background: url('../img/DSC04785.jpg')left/cover no-repeat; 
+    }
+    .item2{
+        background: url('../img/GOPR1802-1.jpg') center/cover no-repeat;
+    }
+    .item3{
+        background: url('../img/lanzarote-deep.jpg')60%/cover no-repeat;
+    }
+    .item4{
+        background: url('../img/GOPR2466-1.jpg')top/cover no-repeat;
+    }
+    .item5{
+        background: url('../img/daniel-acl.jpg')center top/cover no-repeat;
+    }
+}

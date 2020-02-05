@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+.container-fluid p {
+    /* text-indent: 15px; */
+    text-align: justify;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+ul.specialties li ul li {
+    padding-left: 15px;
+}

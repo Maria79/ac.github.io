@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+.container-fluid p {
+    text-align: justify;
+}
+
+.item1 {    
+    background: url('../img/radazul-vista-aerea.jpg')10% 40%/cover no-repeat; 
+}
+.item2{
+    background: url('../img/centro-tenerife-apnea.jpg') 15% 35%/cover no-repeat;
+}
+.item3{
+    background: url('../img/centro-tenerife-cambiadores.jpg')50% 55%/cover no-repeat;
+}
+.item4{
+    background: url('../img/centro-apnea-tenerife.jpg')10% 15%/cover no-repeat;
+}
+.item5{
+    background: url('../img/centro-apnea-yoga.jpg')50% 35%/cover no-repeat;
+}
+
+
+@media screen and (max-width:425px) {
+    .item1 {    
+    background: url('../img/radazul-vista-aerea-1.jpg') 25%/cover no-repeat; 
+    }
+    .item2{
+        background: url('../img/centro-tenerife-apnea.jpg') center/cover no-repeat;
+    }
+    .item3{
+        background: url('../img/centro-tenerife-cambiadores.jpg')bottom center/cover no-repeat;
+    }
+    .item4{
+        background: url('../img/centro-apnea-tenerife.jpg')top/cover no-repeat;
+    }
+    .item5{
+        background: url('../img/centro-apnea-yoga.jpg')center top/cover no-repeat;
+    }
+}
